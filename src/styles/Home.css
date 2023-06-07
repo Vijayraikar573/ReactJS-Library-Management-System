@@ -1,0 +1,63 @@
+.main{
+    background-color: rgb(41, 37, 37);
+    padding: 50px;
+}
+.main h1{
+    margin-left:450px;
+    background: linear-gradient(90deg,red,blue,green,yellow,rgb(247, 89, 10),skyblue);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    background-clip: text;
+    animation: animate 10s linear infinite;
+}
+.main h2{
+    margin-left: 650px;
+    color:wheat;
+}
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+.main button{
+    background-color: grey;
+    color:rgb(205, 243, 149);
+    padding: 9px;
+    font-size:larger;
+    
+}
+.btn-admin{
+    position: absolute;
+    left: 253px;
+    bottom: 330px;
+    border:none;
+    background-image: linear-gradient(90deg,red,blue);
+    
+}
+
+.btn-user{
+    position: absolute;
+    right: 279px;
+    bottom: 330px;
+    border:none;
+    background-image: linear-gradient(90deg,red,blue);
+}
+.wal{
+    position: relative;
+    left:120px;
+    z-index: 1;
+}
+.lwal{
+    position: relative;
+    left:130px;
+    bottom:20px;
+}
+.rwal{
+    position: relative;
+    right:-120px;
+    bottom:20px;
+}

@@ -1,0 +1,63 @@
+.userlist{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-color: rgb(37, 35, 35);   
+}
+.usermain{
+    background-image:linear-gradient(20deg,rgb(37, 35, 35)75%,rgb(106, 1, 1)60% );
+    color:white;
+    text-align:center; 
+}
+.usernav h1{
+    margin-left: 160px;
+}
+
+.userData{
+    height:150px;
+    width: 300px;
+    margin-left: 30px;
+    padding: 20px;
+    margin-top:75px;
+    background-color: rgb(61, 57, 57);
+}
+
+.userData h1{
+    background: linear-gradient(90deg,red,blue,green,yellow,rgb(247, 89, 10),skyblue);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    background-clip: text;
+    animation: animates 10s linear infinite;
+    color:white;
+}
+@keyframes animates{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+.utitle {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size:medium;
+}
+.udetails{
+    color:antiquewhite;
+}
+.udetails p{
+    color:rgb(238, 160, 92);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.username{
+    color:white;
+}
+.uextra{
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+.extra h4{
+    color: aqua;
+}

@@ -1,0 +1,49 @@
+.loginformuser input{
+    border:none;
+    border-bottom: black;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    width: 190px;
+    outline:none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color:aliceblue;
+}
+.loginformuser{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    padding: 5px;
+    background-color: rgb(8, 8, 7);
+    padding:40px 0px;
+}
+.loginformuser h4{
+    color: antiquewhite;
+    margin-left: 20px;
+}
+.User{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -230px;
+    background-color: rgb(32, 33, 33);
+    padding: 255px;
+}
+.User h1{
+    background-image: linear-gradient(90deg,red,blue);
+    background-clip: text;
+    color: transparent;
+}
+.login button{
+    border:none;
+    background-color:grey;
+    color: aliceblue;
+    font-size: larger;
+    padding: 10px;
+    margin-left: 90px;
+    
+}
+.login button:hover{
+    color:black;
+    background-color: aqua;
+}
